@@ -1,0 +1,6 @@
+
+module "my_vpc" {
+  source = "../modules/vpc"
+  cidr   = "{{.cidr_block}}"
+  availability_zone = "{{.availability_zone}}"
+}

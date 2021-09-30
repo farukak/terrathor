@@ -1,0 +1,8 @@
+
+module "{{.instance_name}}" {
+  source = "../modules/ec2"
+  availability_zone = "{{.availability_zone}}"
+  subnet_id  =  module.my_vpc.subnet_id
+  instance_type = "{{.instance_type}}"
+  test = "{{.test}}"
+} 

@@ -1,0 +1,13 @@
+
+variable "cidr_blocks" {
+  description = "Cidr Blocks"
+  type        = list(object({
+    cidr_block = string
+    name = string
+  }))
+}
+
+variable "availability_zone"{
+  description = "Availability Zone"
+  type = string  # Will be list
+}
