@@ -1,6 +1,6 @@
 <div align="center">
   <h3 align="center">Terrathor</h3>
-  <p align="center">Create go module for beginners from terminal</p>
+  <p align="center">Create Terraform project from terminal</p>
   <h1 align="center">under-development (now)</h1>
 </div>
 
